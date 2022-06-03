@@ -1,0 +1,49 @@
+.aBox{
+  border: 1px solid blue;
+  /* padding-top: 10px;
+  padding-left: 20px;
+  margin-top: 100px */
+
+  padding : 10px 20px;
+  width: 13rem;
+}
+
+.block{
+  border: 1px solid green;
+  display: block;
+}
+
+.inline{
+  display: inline-block;
+  border: 1px solid green;
+  padding : 10px 20px;
+  margin: 10px 20px;
+  width: 13rem;
+  height: 50px
+}
+
+.item{
+  border: 1px solid blue;
+  margin:10px;
+  padding:10px;
+  height: 2rem;
+}
+
+.item2{
+  border: 1px solid blue;
+  margin:10px;
+  padding:10px;
+  height: 5rem;
+}
+
+.container{
+  border: 1px solid black;
+  margin: 10px;
+  padding: 10px;
+
+  display: flex;
+  flex-direction : row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
